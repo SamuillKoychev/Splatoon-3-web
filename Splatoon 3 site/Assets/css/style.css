@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Play:wght@400;700&family=Tektur:wght@600&display=swap');
+/* All */
+* {
+	font-family: 'Tektur', sans-serif;
+}
+
+
+/* Boostrap overrides */
+.navbar-brand {
+	width: 60px;
+}
+
+.btn {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 18px;
+	transition: all .5s ease-in-out;
+}
+
+.nav-link:hover {
+	color: #38b4b4;
+}
+
+
+/* Pre defines */
+h1 {
+	font-size: 70px;
+	line-height: 82px;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+.line {
+	display: inline-block;
+	height: 2px;
+	width: 100px;
+	border: none;
+	background-color: #EAEA30;
+	opacity: 1;
+}
+
+.btn-blue, .btn-outline-blue:hover {
+	color: #EAEA30;
+	border: 2px solid #38b4b4;
+	background-color: #000000;
+}
+
+.btn-outline-blue, .btn-blue:hover {
+	color: #000000;
+	border: 2px solid #38b4b4;
+	background-color: #EAEA30;
+}
+
+.btn-login {
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.text-blue {
+	color: #EAEA30;
+}
+
+/* Style */
+.hero {
+	width: 100%;
+	height: 95vh;
+	background: #000 url('../img/splatground.jpg') center/cover no-repeat;
+	z-index: 0;
+}
+
+.image-filter {
+	opacity: 40%;
+	z-index: -1;
+}
+
+.card-image {
+	width: 100%;
+	height: 300px;
+	border-radius: 5px;
+}
+
+.price {
+	font-size: 20px;
+}
+
+.testimonials {
+	width: 100%;
+	background: #000 url('../img/background.png') center/cover no-repeat;
+	z-index: -2;
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+}
+
+.avatar img {
+	width: 100%;
+	border-radius: 50%;
+	border: 3px solid #808080;
+}
+
+.quote {
+	font-size: 50px;
+}
+
+.vr {
+    display: inline-block;
+    align-self: stretch;
+    width: 1px;
+    min-height: 1em;
+    background-color: currentcolor;
+    opacity: 0.25;
+}
+
+.hstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+}
+
+.gap-2 {
+    gap: 0.5rem !important;
+}
+
+.gradient {
+	background: linear-gradient(135deg, #67d690, #08a899);
+}
+
+.form-icon {
+	font-size: 30px;
+}
+
+.social-link {
+	background-color: #7c7979;
+	width: 30px;
+	height: 30px;
+}
+
+.social-link .fa {
+	font-size: 20px;
+}
+
+.ready {
+	width: 100%;
+	background: #000 url('../img/splatoon3-shiver.gif') center/cover no-repeat;
+	position: relative;
+	z-index: 0;
+}
+
+.job {
+	width: 100%;
+	background: #000 url('../img/team.gif') right 35% bottom 45%/cover no-repeat;
+}
+
+.icons {
+	width: 80px;
+	height: 80px;
+	border: 2px solid #38b4b4;
+}
+
+.text-small {
+	font-size: 13px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.hero-title {
+		font-size: 50px;
+		line-height: 60px;
+	}
+}
+
+@media screen and (min-width: 579px) and (max-width: 991px) {
+	.hero-title {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.icons {
+		font-size: 10px;
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 578px) {
+	.hero-title {
+		font-size: 35px;
+		line-height: 45px;
+	}
+
+	.card-image, .card-img-top {
+		height: auto;
+	}
+}
+
+.splatoon  {
+   padding-left: 160px;
+}
+
+
+
+.fuckyou {
+	display: block;
+  margin-left: 20px;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mother {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.poop span{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.piss span {
+	margin-right: 10px;
+}
+
+
+
